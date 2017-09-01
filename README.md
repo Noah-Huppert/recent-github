@@ -39,19 +39,19 @@ Creates a instance of `Client`.
     - If no options argument is provided the default options are:
         - sort = "pushed": This sorts the returned repository list by most recent Git commit push date and time
         
-#### Returns
+##### Returns
 - Client: A new `Client` instance with the provided options
         
-### `[Repo] Client.getRecentRepositories(limit)`
+#### `[Repo] Client.getRecentRepositories(limit)`
 With default `Client` options this method will return a list of recent repositories which the provided user pushed to. 
 The results of this GitHub API request will be augmented with the options provided in the `Client.constructor`.
 
-#### Arguments
+##### Arguments
 - limit (Integer): Optional user provided limit on how many repositories will be returned
     - By default the limit is `5`
     - If one would like the method to return unlimited repositories provide `-1` as the limit
 
-#### Returns
+##### Returns
 - [Repo]: List of `Repo` objects representing recent repository activity
 
 ## View
