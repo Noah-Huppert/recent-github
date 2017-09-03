@@ -28,7 +28,7 @@ const ERR_MAKING = 3;
 class AxiosErr {
     /**
      * Creates an AxiosError instance
-     * @param code {Number} One of error codes above for easy error identification
+     * @param code {number} One of error codes above for easy error identification
      * @param data {*} Information about error code, depends on the code:
      *
      *     - Not 200: Data is an object with the keys: data, status, headers
@@ -68,3 +68,11 @@ function Handle(error) {
         }
     });
 }
+
+module.exports = {
+    ERR_NOT_200: ERR_NOT_200,
+    ERR_NO_RESP: ERR_NO_RESP,
+    ERR_MAKING: ERR_MAKING,
+    AxiosErr: AxiosErr,
+    Handle: Handle
+};

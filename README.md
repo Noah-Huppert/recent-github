@@ -42,7 +42,7 @@ Creates a new instance of the `Client` class.
 ##### Returns
 - Client: A new `Client` instance with the provided options
         
-#### `[Repo] Client.getRecentRepositories(limit)`
+#### `[Repo] Client.getRecentRepos(limit)`
 With default `Client` options this method will return a list of recent repositories which the provided user pushed to. 
 The results of this GitHub API request will be augmented with the options provided in the `Client.constructor`.
 
