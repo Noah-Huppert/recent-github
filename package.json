@@ -1,0 +1,26 @@
+{
+  "name": "recent-github",
+  "version": "0.1.0",
+  "description": "A widget which displays recent personal repository activity on GitHub. Meant for showcasing work you have been doing on  projects by using the GitHub API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noah-Huppert/recent-github.git"
+  },
+  "keywords": [
+    "polymer",
+    "github"
+  ],
+  "author": "Noah Huppert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Noah-Huppert/recent-github/issues"
+  },
+  "homepage": "https://github.com/Noah-Huppert/recent-github#readme",
+  "dependencies": {
+    "axios": "^0.16.2"
+  }
+}
