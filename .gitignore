@@ -5,3 +5,6 @@
 # NodeJs
 node_modules/
 *.log
+
+# Project
+dist/

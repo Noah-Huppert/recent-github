@@ -69,9 +69,9 @@ class Client {
         return axios.get(`${URL_USERS}/${this.username}${URL_PART_REPOS}`, {
             params: this.options
         }).then((resp) => {
-            // TODO: Handle resp
+            console.log(`then: ${resp}`);
         }).catch(axiosError.Handle).catch((err) => {
-            // TODO: Handle err
+            console.error(`catch:`, err);
         });
     }
 }
