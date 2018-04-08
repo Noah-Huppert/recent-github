@@ -1,27 +1,17 @@
 {
   "name": "recent-github",
-  "description": "/home/noah/Documents/workspace/www/recent-github/package.json",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "description": "A widget which displays recent personal repository activity on GitHub",
+  "main": "index.html",
+  "repository": "git@github.com:Noah-Huppert/recent-github.git",
   "author": "Noah Huppert <noah.programmer@gmail.com>",
-  "private": true,
-  "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
-  },
+  "license": "MIT",
+  "flat": true,
   "dependencies": {
-    "axios": "^0.16.2",
-    "vue": "^2.3.3"
+    "@polymer/polymer": "^3.0.0-pre.1",
+    "@webcomponents/webcomponentsjs": "^1.0.11"
   },
-  "devDependencies": {
-    "babel-core": "^6.0.0",
-    "babel-loader": "^6.0.0",
-    "babel-preset-env": "^1.5.1",
-    "cross-env": "^3.0.0",
-    "css-loader": "^0.25.0",
-    "file-loader": "^0.9.0",
-    "vue-loader": "^12.1.0",
-    "vue-template-compiler": "^2.3.3",
-    "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.4.5"
+  "resolutions": {
+    "@webcomponents/webcomponentsjs": "1.0.11"
   }
 }
